@@ -1,0 +1,235 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/csusb_background"
+    android:id="@+id/menu_mainlayout"
+    android:paddingTop="120dp" tools:context=".menu_page">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <RelativeLayout
+                android:id="@+id/aboutus"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:id="@+id/aboutus_child"
+                    android:src="@drawable/aboutus"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/desc_icon_aboutus"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_aboutus"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView"
+                    android:layout_below="@id/aboutus_child"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/services"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:layout_toEndOf="@id/aboutus"
+                android:layout_toRightOf="@id/aboutus">
+
+                <ImageView
+                    android:id="@+id/services_child"
+                    android:src="@drawable/reports"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/desc_icon_services"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_services"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView3"
+                    android:layout_below="@+id/services_child"
+                    android:layout_alignLeft="@+id/services_child"
+                    android:layout_alignStart="@+id/services_child"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:id="@+id/resources"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="70dp"
+                    android:src="@drawable/world"
+                    android:id="@+id/resources_child"
+                    android:contentDescription="@string/desc_icon_resources"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_resources"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView2"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:gravity="start"
+                android:id="@+id/tips"
+                android:layout_toStartOf="@id/resources"
+                android:layout_toLeftOf="@id/resources">
+
+                <ImageView
+                    android:id="@+id/tips_child"
+                    android:src="@drawable/tips"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp"
+                    android:contentDescription="@string/desc_icon_anonymoustips"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_anonymoustips"
+                    android:textColor="#ffffff"
+                    android:id="@+id/textView4"
+                    android:gravity="center"
+                    android:layout_alignParentBottom="true"
+                    android:textStyle="bold"/>
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="30dp">
+
+            <RelativeLayout
+                android:id="@+id/safetytips"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true">
+
+                <ImageView
+                    android:id="@+id/safetips_child"
+                    android:src="@drawable/safetytips"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/desc_icon_aboutus"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_securitytips"
+                    android:textColor="#ffffff"
+                    android:layout_below="@id/safetips_child"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/locations"
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="end"
+                android:layout_toEndOf="@id/safetytips"
+                android:layout_toRightOf="@id/safetytips">
+
+                <ImageView
+                    android:id="@+id/locations_child"
+                    android:src="@drawable/location"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:contentDescription="@string/desc_icon_services"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:text="@string/tv_string_locations"
+                    android:textColor="#ffffff"
+                    android:layout_below="@+id/locations_child"
+                    android:layout_alignLeft="@+id/locations_child"
+                    android:layout_alignStart="@+id/locations_child"
+                    android:textStyle="bold" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/reports"
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/reports_child"
+                android:src="@drawable/reports"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:contentDescription="@string/desc_icon_reports"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="@string/tv_string_reports"
+                android:textColor="#ffffff"
+                android:layout_below="@id/reports_child"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

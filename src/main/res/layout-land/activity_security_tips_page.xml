@@ -1,0 +1,118 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="csusb.campussafety.SecurityTips"
+    android:background="@drawable/safetytippage"
+    android:paddingTop="160dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph1"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph2"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph3"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph4"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph5"
+            android:id="@+id/textView6"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph6"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph7"
+            android:id="@+id/textView8"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph8"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph9"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph10"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/tv_string_securitytips_paragraph11"
+            android:padding="10dp"
+            android:textColor="#ff000000"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,96 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/csusb_background"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    tools:context=".MenuPage">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#000000"
+            android:padding="4dp">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="18dip"
+                android:text="@string/tv_string_anonymoustips"
+                android:textSize="14sp"
+                android:gravity="center"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="8dp"
+            android:paddingTop="70dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/et_string_subject"
+                android:textColor="#0065BD"
+                android:textSize="18sp"
+                android:padding="4dp"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/et_anonymoustips_subject"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="@dimen/abc_text_size_display_1_material"
+                android:hint="@string/et_string_subject"
+                android:padding="8dp"
+                android:paddingTop="0dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#FFFFFF"
+                android:text="@string/et_string_message"
+                android:textColor="#0065BD"
+                android:textSize="18sp"
+                android:padding="4dp"
+                android:layout_marginTop="4dp"/>
+
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:inputType="textMultiLine"
+                android:lines="8"
+                android:gravity="start"
+                android:ems="10"
+                android:id="@+id/et_anonymoustips_message"
+                android:background="#FFFFFF"
+                android:textColor="#000000"
+                android:textSize="27sp"
+                android:hint="@string/et_string_message"
+                android:padding="8dp"
+                android:paddingTop="0dp"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_string_submit"
+                android:id="@+id/btn_anonymoustips_submit"
+                android:background="#A8E36D"
+                android:layout_marginTop="4dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

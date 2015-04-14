@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Campus Safety</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="services_paragraph_8">Provides free electronic alerts for accurate, important, and time sensitive information via text message, e-mail, and web. Get neighborhood-level public safety and health alerts and other relevant community information.</string>
+    <string name="services_paragraph_7">The annual event in which police officers, university staff and volunteers team up to assist needy families during the holidays.</string>
+    <string name="services_paragraph_6">Invites community volunteers to work with the department by assisting with campus patrol, escort service and crime prevention efforts.</string>
+    <string name="services_paragraph_5">The Chaplain Program offers spiritual support to University Police officers as well as campus community during a crisis.</string>
+    <string name="services_paragraph_4">The University Police Explorers program mentors local youth who have an interest in law enforcement through a partnership with the San Bernardino Public Safety Academy.</string>
+    <string name="services_paragraph_3">The escort program provides transportation to CSUSB students, faculty or visitors who are concerned about their safety. Escorts are provided by foot, department car, and state vehicle</string>
+    <string name="services_paragraph_2">The Motorcycle Officer Program provides traffic enforcement on campus and public events such as new student orientations</string>
+    <string name="services_paragraph_1">Live Scan Fingerprinting is done by appointment only. Please call (909) 537–3552 to schedule an appointment.</string>
+    <string name="services_paragraph_header">The University Police Department offers variety of services to the public</string>
+    <string name="services">Services</string>
+    <string name="about_us_1st_paragraph">The CSUSB Police Department is a state law enforcement agency which employs 18 sworn police officers and an active support staff for 24-hour protection of the campus community. The department is responsible for the 471-acre north San Bernardino campus with its 20,000 students, faculty and staff and also for the surrounding area. Including the campus and outlying residential, canyon and foothills. The CSUSB Police Department serves an area of 480-acres and 2.5 square miles. The peace officers of this department have statewide police authority, and are vested with law enforcement powers and responsibilities, identical to the municipal police or sheriff\'s departments in our community. The CSUSB Police Department was established in Jan. 23, 1974 and strives to provide</string>
+    <string name="about_us_2nd_paragraph">The CSUSB Police Department along with its 24-hour patrol deploys a Motor Officer for Traffic Enforcement. A substation located within the university housing enhances the safety of university residents, with officers assigned specifically to the residential community on the campus. The University Police Department has an active Chaplain program, with Chaplains who often ride with our officers. Campus community members can become involved with enhancing safety and fighting crime at the University by becoming a member of the Police Department Volunteers.</string>
+    <string name="about_us_3rd_paragraph">If anyone has any questions in reference to the CSUSB Police Department feel free to call or e-mail us.</string>
+    <string name="desc_icon_aboutus">icon_aboutus</string>
+    <string name="tv_string_aboutus">About Us</string>
+    <string name="tv_string_services">Services</string>
+    <string name="desc_icon_resources">icon resources</string>
+    <string name="tv_string_resources">Resources</string>
+    <string name="desc_icon_anonymoustips">icon anonymous tips</string>
+    <string name="tv_string_anonymoustips">Anonymous\nTips</string>
+    <string name="desc_icon_services">icon services</string>
+    <string name="et_string_subject">Subject</string>
+    <string name="et_string_message">Message</string>
+    <string name="btn_string_submit">Submit</string>
+    <string name="tv_string_securitytips_paragraph1">•Have Keys in hand before walking to your car.</string>
+    <string name="tv_string_securitytips_paragraph2">•Always be aware of your surroundings-remember the use of iPod devices and cell phones may significantly distract you.</string>
+    <string name="tv_string_securitytips_paragraph4">•Utilize the buddy system.</string>
+    <string name="tv_string_securitytips_paragraph6">•Use Escort Service operated by the Police Department. Use of the Code Blue phones located throughout campus, or call campus police at (909)–537–7777 for this service.</string>
+    <string name="tv_string_securitytips_paragraph3">•Do not walk alone.</string>
+    <string name="tv_string_securitytips_paragraph5">•Learn the location of the Code Blue phones located throughout campus. These phones are linked directly to the campus Police Department and the emergency buttons are considered 911 priority lines. Students and staff are encourage to utilize these phones for any emergency</string>
+    <string name="tv_string_securitytips_paragraph7">•In an emergency, contact campus police by using of the Code Blue phones on campus; calling 911 from any on campus phone; or by calling 911 from a cellular phone.</string>
+    <string name="tv_string_securitytips_paragraph8">•Night students and faculty are encouraged to park in the same general area as other faculty or students with night classes in their building; this provides the opportunity for a group of students and faculty to walk to their cars after dark.</string>
+    <string name="tv_string_securitytips_paragraph9">•Immediately report any suspicious activity to campus police</string>
+    <string name="tv_string_securitytips_paragraph10">•Remember possession of a firearm on University property is against the law. If you hear or know of anyone to bring a firearm onto campus, please notify the University Police Department.</string>
+    <string name="tv_string_securitytips_paragraph11">•BE AWARE! BE SAFE!</string>
+    <string name="tv_string_securitytips">Security Tips</string>
+    <string name="tv_string_reports">Reports</string>
+    <string name="desc_icon_reports">icon reports</string>
+    <string name="tv_string_locations">Locations</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="menu_navigation_general_items">
+        <item>About Us</item>
+        <item>Services</item>
+        <item>Anonymous Tips</item>
+        <item>Resources</item>
+        <item>Security Tips</item>
+        <item>Location</item>
+        <item>Reports</item>
+    </string-array>
+</resources>

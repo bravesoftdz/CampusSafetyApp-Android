@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@drawable/services_list_icon"
+            android:id="@+id/adapter_iv_list_services_icon"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="67dp"
+            android:textSize="32sp"
+            android:layout_toRightOf="@id/adapter_iv_list_services_icon"
+            android:gravity="left|center_vertical"
+            android:paddingLeft="16dp"
+            android:text="Test"
+            android:id="@+id/adapter_tv_list_services_text"/>
+    </RelativeLayout>
+</LinearLayout>
